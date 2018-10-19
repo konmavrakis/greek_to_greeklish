@@ -20,7 +20,7 @@ the output file will be saved in the same folder.
 To run the demos you can simpy enter:
 
 ```bash 
-$ php script demos/greek-url.txt test.txt
+$ php script.php demos/greek-url.txt test.txt
 ```
 
 this will make all Greek characters from `greek-url.txt` to `test.txt` and will be saved in the root directory of the folder.
