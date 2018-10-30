@@ -69,7 +69,7 @@
 
     while ( $line = fgets( $stream ) ) {
 
-        //Check if the url is encoded and decoded it
+        //Check if the url is encoded and decode it
         preg_match( '~%[0-9A-F]{2}~i', $line ) ? $line_encoded = urldecode( $line ) : $line_encoded = $line;
 
         $output[] = preg_replace( array_keys( $chars ), array_values( $chars ), $line_encoded );
