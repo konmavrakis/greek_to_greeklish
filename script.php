@@ -62,7 +62,7 @@ $chars = array(
   '/[ηΗ][υΥ]/u'                               => 'iu',
 );
 
-$output = Array();
+$output = [];
 
 $source = isset( $argv[1] ) ? $argv[1] : print_r( 'No source provided' ) . exit;
 
@@ -71,7 +71,7 @@ $stream = fopen( $source, 'r' );
 while ( $line = fgets( $stream ) ) {
 
   //Check if the url is encoded and decode it
-  if(preg_match( '~%[0-9A-F]{2}~i', $line )){
+  if( preg_match( '~%[0-9A-F]{2}~i', $line ) ){
     $line_encoded = urldecode( $line );
   } else {
     $line_encoded = $line;
