@@ -15,12 +15,14 @@ $ php script.php file-to-read.txt file-to-save.txt
 
 the output file will be saved in the same folder.
 
-## Demos: 
+## Demos:
 
 To run the demos you can simpy enter:
 
-```bash 
-$ php script.php demos/greek-url.txt test.txt
+```bash
+$ php script.php demos/greek-urls.txt test.txt
+or
+$ php script.php demos/greek-text.txt test.txt
 ```
 
 this will make all Greek characters from `greek-url.txt` to `test.txt` and will be saved in the root directory of the folder.
@@ -35,7 +37,7 @@ https://example.com/κείμενο-το-στην-και
 ```
 
 
-Output: 
+Output:
 
 ```
 https://example.com/afora-dimioyrgisei-vivlioy-Lorem
