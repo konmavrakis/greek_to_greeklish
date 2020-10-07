@@ -19,3 +19,5 @@ https://example.com/το-χωρίς-Όχι-το
 https://example.com/με-χωρίς-αφορά-αιώνες
 https://example.com/όταν-νόημα-πέντε-και
 https://example.com/όσον-Lorem-αιώνες-αναλλοίωτο
+https://example.com/τεστ-Lorem-καινούργιοι-χαρακτήρες-ΐ
+https://example.com/τεστ-Lorem-καινούργιοι-χαρακτήρες-ΰ
